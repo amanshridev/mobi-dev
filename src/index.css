@@ -22,7 +22,7 @@ canvas {
   touch-action: none;
 }
 
-.scrim-max-width {
+.screen-max-width {
   margin-inline-start: auto;
   margin-inline-end: auto;
   position: relative;
@@ -39,7 +39,7 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue
+    @apply px-5 rounded-3xl hover:bg-transparent border hover:border hover:text-blue-900 hover:border-blue-900
   }
 
   .color-container {
@@ -59,7 +59,7 @@ canvas {
   }
 
   .section-heading {
-    @apply text-gray lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20
+    @apply text-gray-500 lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20
   }
 
   .feature-text {
@@ -79,7 +79,7 @@ canvas {
   }
 
   .link {
-    @apply text-blue hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20
+    @apply hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20
   }
 
   .control-btn {
