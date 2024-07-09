@@ -12,7 +12,7 @@ const Heighlight = () => {
   return (
     <section
       id="heighlight"
-      className="w-screen overflow-hidden h-4 common-padding bg-zinc-950"
+      className="w-screen overflow-hidden h-full common-padding bg-zinc-950"
     >
       <div className="screen-max-width">
         <div className="mb-12 w-full md:flex items-end justify-between">

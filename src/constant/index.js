@@ -14,11 +14,8 @@ import {
   export const hightlightsSlides = [
     {
       id: 1,
-      textLists: [
-        "Enter A17 Pro.",
-        "Game‑changing chip.",
-        "Groundbreaking performance.",
-      ],
+      heading: 'Iphone 12',
+      subText: "lLorem ipsum dolor sit amet consectetur adipisicing elit.",
       video: highlightFirstVideo,
       videoDuration: 4,
     },
